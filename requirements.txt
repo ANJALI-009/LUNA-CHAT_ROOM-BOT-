@@ -1,0 +1,8 @@
+streamlit>=1.0
+phi
+numpy>=1.21
+faiss-cpu>=1.7
+python-dotenv>=0.19
+sentence-transformers>=2.2
+pandas>=1.3
+

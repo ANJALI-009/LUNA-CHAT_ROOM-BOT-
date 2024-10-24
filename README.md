@@ -23,36 +23,6 @@ LUNA CHAT_ROOM BOT is a Streamlit web application that serves as an AI-powered a
 - **Sentence Transformers**: For generating embeddings from text.
 - **Pandas**: For data manipulation and reading CSV files.
 
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/luna-chat-room-bot.git
-    cd luna-chat-room-bot
-    ```
-
-2. **Create a virtual environment** (optional but recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. **Install the required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Create a `.env` file** in the root directory and add your environment variables:
-    ```
-    API_KEY=your_api_key_here
-    ```
-
-5. **Run the application**:
-    ```bash
-    streamlit run app.py
-    ```
 
 ## Usage
 
@@ -64,16 +34,6 @@ To set up the project locally, follow these steps:
 ## Data
 
 The application fetches trainer data from a CSV file located at `data_science_profiles.csv`. Ensure this file is present in the specified directory before running the application.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute to the project:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
 
 ## License
 

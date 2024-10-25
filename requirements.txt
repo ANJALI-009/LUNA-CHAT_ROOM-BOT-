@@ -1,5 +1,5 @@
 streamlit>=1.0
-phi
+phidata
 numpy>=1.21
 faiss-cpu>=1.7
 python-dotenv>=0.19
